@@ -42,7 +42,7 @@ public class MainFragment extends Fragment {
     private void initRv(View view) {
         rv = (RecyclerView) view.findViewById(R.id.fragment_rv);
         rv.setLayoutManager(new LinearLayoutManager(getActivity()));
-        rv.setAdapter(new AnimalAdapter(animalList));
+        rv.setAdapter(new AnimalAdapter(animalList, view));
 
     }
 

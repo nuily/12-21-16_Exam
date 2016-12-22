@@ -13,10 +13,12 @@ import nyc.c4q.huilin.a12_21_16_exam.model.Animals;
  * Created by huilin on 12/21/16.
  */
 public class AnimalAdapter extends RecyclerView.Adapter<AnimalViewHolder> {
+    private final View fragView;
     List<Animals> animalsList;
 
-    public AnimalAdapter(List<Animals> animalList) {
+    public AnimalAdapter(List<Animals> animalList, View fragView) {
         this.animalsList = animalList;
+        this.fragView = fragView;
     }
 
     @Override
@@ -29,7 +31,7 @@ public class AnimalAdapter extends RecyclerView.Adapter<AnimalViewHolder> {
     @Override
     public void onBindViewHolder(AnimalViewHolder holder, int position) {
         Animals animal = animalsList.get(position);
-        holder.bind(animal);
+        holder.bind(animal, fragView);
 
     }
 
