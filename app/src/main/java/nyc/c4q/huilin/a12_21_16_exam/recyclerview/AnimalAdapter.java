@@ -1,4 +1,4 @@
-package nyc.c4q.huilin.a12_21_16_exam;
+package nyc.c4q.huilin.a12_21_16_exam.recyclerview;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
+import nyc.c4q.huilin.a12_21_16_exam.R;
 import nyc.c4q.huilin.a12_21_16_exam.model.Animals;
 
 /**

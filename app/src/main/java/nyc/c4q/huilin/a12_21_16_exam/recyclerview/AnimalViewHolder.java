@@ -1,10 +1,11 @@
-package nyc.c4q.huilin.a12_21_16_exam;
+package nyc.c4q.huilin.a12_21_16_exam.recyclerview;
 
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
+import nyc.c4q.huilin.a12_21_16_exam.R;
 import nyc.c4q.huilin.a12_21_16_exam.model.Animals;
 
 /**

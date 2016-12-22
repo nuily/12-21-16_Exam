@@ -1,4 +1,4 @@
-package nyc.c4q.huilin.a12_21_16_exam;
+package nyc.c4q.huilin.a12_21_16_exam.model.backend;
 
 import nyc.c4q.huilin.a12_21_16_exam.model.AnimalResponse;
 import retrofit2.Call;
