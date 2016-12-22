@@ -11,10 +11,10 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import nyc.c4q.huilin.a12_21_16_exam.model.backend.AnimalApi;
 import nyc.c4q.huilin.a12_21_16_exam.model.AnimalResponse;
 import nyc.c4q.huilin.a12_21_16_exam.model.Animals;
-import nyc.c4q.huilin.a12_21_16_exam.recyclerview.AnimalAdapter;
+import nyc.c4q.huilin.a12_21_16_exam.model.backend.AnimalApi;
+import nyc.c4q.huilin.a12_21_16_exam.view.recyclerview.AnimalAdapter;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

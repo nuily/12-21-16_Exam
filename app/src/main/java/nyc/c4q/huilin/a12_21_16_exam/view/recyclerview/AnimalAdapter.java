@@ -1,4 +1,4 @@
-package nyc.c4q.huilin.a12_21_16_exam.recyclerview;
+package nyc.c4q.huilin.a12_21_16_exam.view.recyclerview;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
